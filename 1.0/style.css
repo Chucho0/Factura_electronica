@@ -1,0 +1,580 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #b1fde0;
+}
+
+section {
+  height: 100vh;
+  width: 90%;
+}
+
+.primercontenedor {
+  display: flex;
+}
+
+.barralateral {
+  background: linear-gradient(to bottom, #00b8a9, #17a589, #28b463, #2ecc71);
+  width: 5%;
+}
+
+.detallesfactura {
+  background-color: #ffffff;
+  width: 95%;
+}
+
+.estructurafactura {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bombillo {
+  width: 20%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.textofactura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.factura {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 56px;
+  color: #00b8a9;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  letter-spacing: 0.2em;
+  transform: scaleY(1.2);
+  display: inline-block;
+}
+
+.informacionfactura {
+  display: flex;
+  justify-content: center;
+}
+
+.nombres {
+  display: flex;
+  flex-direction: column;
+  color: #00b8a9;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.textofecha {
+  display: flex;
+  justify-content: end;
+}
+
+.textoinformacionfactura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.segundocontenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 5%;
+  letter-spacing: 0.1em;
+}
+
+.informacioncliente {
+  margin-left: 15px;
+}
+
+.nombre {
+  color: #00b8a9;
+  font-size: 30px;
+  transform: scaleY(1.1);
+  margin-bottom: 5px;
+}
+
+.textocliente {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.metododepago {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  justify-content: end;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.metododepagotitulo {
+  display: flex;
+  justify-content: end;
+}
+
+.textopago {
+  color: #00b8a9;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-right: 5px;
+}
+
+.cuenta {
+  display: flex;
+}
+
+.textocuenta {
+  text-transform: uppercase;
+}
+
+.correo {
+  display: flex;
+}
+
+.textocorreo {
+  text-transform: uppercase;
+}
+
+.tercercontenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.tabla {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 90%;
+}
+
+.tabla td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tabla th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tabla .texto1 {
+  border-color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tabla .tituloone {
+  border-color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tabla .titulos {
+  background-color: #00b8a9;
+  border-color: #00b8a9;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tabla .titulodos {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tabla .texto2 {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tercercontenedor table.tabla tbody tr:last-child td {
+  border-bottom: 4px solid #dcdcdc;
+}
+
+.cuartocontenedor {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+  margin-right: 5%;
+  font-size: 18px;
+  margin-bottom: 80px;
+  padding-right: 7%;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 5%;
+}
+
+.textosubtotal {
+  margin-bottom: 10px;
+}
+
+.textototal {
+  margin-top: 35px;
+}
+
+.quintocontenedor {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 4%;
+  height: 100px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.contacto {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.gracias {
+  color: #00b8a9;
+  display: flex;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transform: scaleY(1.2);
+  padding-top: 8px;
+}
+
+.contenedorfinal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 90%;
+  border: 2px solid #00b8a9;
+}
+
+.ubicacion {
+  margin: 15px 5%;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .estructurafactura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bombillo {
+    margin-left: 0;
+  }
+
+  .textofactura {
+    margin-right: 0;
+  }
+
+  .factura {
+    margin-top: 40px;
+  }
+
+  .segundocontenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metododepago {
+    margin-top: 20px;
+  }
+
+  .cuenta {
+    justify-content: end;
+  }
+
+  .correo {
+    justify-content: end;
+  }
+
+  .quintocontenedor {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .gracias {
+    justify-content: end;
+  }
+}
+
+@media (max-width: 700px) {
+  section {
+    width: 100%;
+  }
+
+  .metododepago {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .factura {
+    font-size: 45px;
+    margin-top: 25px;
+  }
+
+  .gracias {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tabla .titulos {
+    font-size: 11px;
+  }
+
+  .textocorreo {
+    font-size: 13px;
+  }
+
+  .textocuenta {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 330px) {
+  .tabla {
+    width: 80%;
+  }
+
+  .tabla td {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+
+  .tabla th {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+
+  .tabla .texto1 {
+    font-size: 10px;
+  }
+
+  .tabla .tituloone {
+    font-size: 10px;
+  }
+
+  .tabla .titulos {
+    font-size: 15px;
+  }
+
+  .tabla .titulodos {
+    font-size: 10px;
+  }
+
+  .tabla .texto2 {
+    font-size: 10px;
+  }
+
+  .tabla .titulos {
+    font-size: 10px;
+  }
+
+  .cuartocontenedor {
+    font-size: 9px;
+  }
+
+  .textototal {
+    margin-top: 13px;
+  }
+
+  .metododepago {
+    font-size: 15px;
+  }
+
+  .nombre {
+    font-size: 21px;
+  }
+
+  .textocliente {
+    font-size: 13px;
+  }
+
+  .ubicacion {
+    font-size: 10px;
+  }
+
+  .contacto {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 320px) {
+  .textocorreo {
+    font-size: 8px;
+  }
+
+  .textocuenta {
+    font-size: 8px;
+  }
+
+  .metododepago {
+    font-size: 8px;
+  }
+
+  .informacioncliente {
+    margin-left: 17px;
+  }
+
+  .nombre {
+    font-size: 19px;
+  }
+
+  .textocliente {
+    font-size: 10px;
+  }
+
+  .gracias {
+    font-size: 30px;
+  }
+
+  .ubicacion {
+    font-size: 8px;
+  }
+
+  .cuartocontenedor {
+    font-size: 9px;
+  }
+
+  .textototal {
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 300px) {
+  .factura {
+    font-size: 29px;
+  }
+
+  .textocorreo {
+    font-size: 9px;
+  }
+
+  .textocuenta {
+    font-size: 9px;
+  }
+
+  .metododepago {
+    font-size: 9px;
+  }
+
+  .informacioncliente {
+    margin-left: 20px;
+  }
+
+  .nombre {
+    font-size: 20px;
+  }
+
+  .textocliente {
+    font-size: 11px;
+  }
+
+  .gracias {
+    font-size: 30px;
+  }
+
+  .ubicacion {
+    font-size: 8px;
+  }
+
+  .cuartocontenedor {
+    font-size: 9px;
+  }
+
+  .textototal {
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 250px) {
+  .textocorreo {
+    font-size: 9px;
+  }
+
+  .textocuenta {
+    font-size: 9px;
+  }
+
+  .metododepago {
+    font-size: 11px;
+  }
+
+  .informacioncliente {
+    margin-left: 11px;
+  }
+
+  .nombre {
+    font-size: 20px;
+  }
+
+  .textocliente {
+    font-size: 13px;
+  }
+
+  .gracias {
+    font-size: 30px;
+  }
+
+  .ubicacion {
+    font-size: 13px;
+  }
+
+  .cuartocontenedor {
+    font-size: 13px;
+  }
+
+  .textototal {
+    margin-top: 17px;
+  }
+
+  .textofecha {
+    font-size: 15px;
+  }
+
+  .textofactura {
+    font-size: 15px;
+  }
+}
